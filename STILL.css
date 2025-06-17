@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: #FF4F0F;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	background-color: #FFE3BB;
+	padding: 20px;
+		margin-left: auto; 
+		margin-right:auto;
+		width:400px;
+}
+.paragraf_2 {color:darkcyan; background-color: rgba(255, 255, 255, 0.5)}
+.novi_blok{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:20px;
+	margin:20px;
+	width:50%;
+}
+	
+}
+@font-face {
+		font-family: "finalDora";
+		src:url("font/finalDora.ttf");
+}
+h1 {
+	font-family:"finalDora";
+	color:#FFE3BB;
+	background-color: #03A6A1;
+	padding:20px; 
+		margin-left: auto; 
+		margin-right:auto;  
+		width: 175px;
+		text-align:center;
+		border-radius: 10px;
+			} 
+h2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #FF4F0F;
+	background-color:#FFE3BB;
+		margin-left: auto; 
+		margin-right:auto;  
+		width: 335px;
+		text-align:center;
+		border-radius: 10px;
+	} 
+p {
+		margin-left: auto; 
+		margin-right:auto;
+		width:400px;
+		text-align:center;
+		border-radius: 10px;
+}
+span {color: yellow;}
+.pozadina{
+	background-image: url("dm_3_slike/pozadina1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.drugapozadina{
+	background-color: lightblue;
+}
+
+
+img {
+	height: 270px;
+	padding:10px;
+	margin-left: auto; 
+	margin-right:auto;  
+
+}
+
+ol {	
+			padding:10px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+			text-align:center;
+			} 
+	li {	display:inline; 
+			background-color:#FFE3BB;
+			padding:11px;
+			border: 2px solid #03A6A1;
+			border-radius: 5px;
+		}
+	li:active {background-color:IndianRed;} 
+		
+	li a {	color:#FF4F0F; 
+			font-family:f Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+
+a {
+			color:#FF4F0F; 
+			font-family:f Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+			padding:10px;
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+			text-align:center; 
+			background-color:#FFE3BB;
+	
+}
+	
+video{
+	width="400"
+}
+	
